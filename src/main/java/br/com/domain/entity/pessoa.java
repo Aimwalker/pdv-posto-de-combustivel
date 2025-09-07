@@ -5,39 +5,39 @@ public class pessoa {
     public static void main(String[] args) {
 
         //construtor
-        private string nomecompleto
+        private string Nomecompleto;
 
-        private date datadenascimento
+        private date Datadenascimento;
 
-        private integer CpfCnpj
+        private integer CpfCnpj;
 
-        private integer ctps
+        private integer Ctps;
 
         //getters
         public string getNomecompleto () {
-            return nomecompleto;
+            return Nomecompleto;
         }
         public date getDatadenascimento () {
-            return datadenascimento;
+            return Datadenascimento;
         }
         public integer getCpfCnpj () {
             return CpfCnpj;
         }
         public integer getCtps () {
-            return ctps;
+            return Ctps;
         }
         //setters
-        public void setNomecompleto (string nomecompleto){
-            this.nomecompleto = nomecompleto;
+        public void setNomecompleto (string Nomecompleto){
+            this.nomecompleto = Nomecompleto;
         }
-        public void setDatadenascimento (date datadenascimento){
-            this.datadenascimento = datadenascimento;
+        public void setDatadenascimento (date Datadenascimento){
+            this.datadenascimento = Datadenascimento;
         }
         public void setCpfCnpj (integer cpfCnpj){
-            CpfCnpj = cpfCnpj;
+            this.CpfCnpj = CpfCnpj;
         }
-        public void setCtps (integer ctps){
-            this.ctps = ctps;
+        public void setCtps (integer Ctps){
+            this.Ctps = Ctps;
         }
     }
 }
